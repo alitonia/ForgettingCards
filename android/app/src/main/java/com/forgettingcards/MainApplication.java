@@ -10,7 +10,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
-import com.forgettingcards.CustomMMKVJSIModulePackage; // <- add here
+import com.forgettingcards.RNMMKVJSIModulePackage; // <- add here
 import com.facebook.react.bridge.JSIModulePackage; // <-- ADD THIS
 
 public class MainApplication extends Application implements ReactApplication {
@@ -38,7 +38,7 @@ public class MainApplication extends Application implements ReactApplication {
           // add this method to load our CustomMMKVJSIModulePackage.
         @Override
         protected JSIModulePackage getJSIModulePackage() {
-           return new CustomMMKVJSIModulePackage();
+           return new RNMMKVJSIModulePackage();
         }
       };
 

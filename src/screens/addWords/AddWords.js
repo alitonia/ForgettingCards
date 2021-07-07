@@ -1,10 +1,10 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 
-export const Setting = () => {
+export const AddWords = () => {
   return (
     <View>
-      <Text>Setting</Text>
+      <Text>AddWords</Text>
     </View>
   );
 };
